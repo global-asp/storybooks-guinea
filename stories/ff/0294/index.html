@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Guinea is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in English and French, as well as the most widely spoken languages of Guinea.
 ">
 	<link rel="stylesheet" href="/storybooks-guinea/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-guinea/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-guinea/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-guinea/stories/ff/0294/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Guinea" href="/storybooks-guinea">
 	<script src="/storybooks-guinea/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -76,17 +79,16 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
 			<button onclick="switchlang('ff,ff','fr,ff,ff')" class="btn btn-lg lang-secondary" title="Switch between Fula and Fulani">ff</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-guinea/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-guinea/css/art.svg" alt="Illustrated by"></span> Catherine Groenewald</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-guinea/css/global.svg" alt="Translated by"></span> Plan Niger - Projet NECS - Usaid</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-guinea/css/language.svg" alt="Language"></span> <a href="/storybooks-guinea/stories/ff">Fula</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-guinea/css/level.svg" alt="Level"></span> <a href="/storybooks-guinea/stories/ff/level4">Level 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-guinea/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ff/0294/ff-0294_grandma.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-guinea/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-guinea/css/art.svg" alt="Illustrated by"></span> Catherine Groenewald</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-guinea/css/global.svg" alt="Translated by"></span> Plan Niger - Projet NECS - Usaid</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-guinea/css/language.svg" alt="Language"></span> <a href="/storybooks-guinea/stories/ff">Fula</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-guinea/css/level.svg" alt="Level"></span> <a href="/storybooks-guinea/stories/ff/level4">Level 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-guinea/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
 	</div>
 </div>
 <hr>
@@ -109,19 +111,7 @@ bananaaje ɗen.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Le jardin de grand-mère était
-merveilleux – plein de sorgho, de
-millet et de manioc. Mais le meilleur
-de tout, c’était les bananes.
-Bien que grand-mère avait
-beaucoup de petits-enfants, je
-savais que secrètement j’étais sa
-préférée. Elle m’invitait souvent
-dans sa maison. Elle partageait
-avec moi ses petits secrets.
-Mais il y avait une chose qu’elle
-gardait secrète : L’endroit où elle
-faisait murir les bananes.
+	Le jardin de grand-mère était merveilleux – plein de sorgho, de millet et de manioc. Mais le meilleur de tout, c’était les bananes. Bien que grand-mère avait beaucoup de petits-enfants, je savais que secrètement j’étais sa préférée. Elle m’invitait souvent dans sa maison. Elle partageait avec moi ses petits secrets. Mais il y avait une chose qu’elle gardait secrète : l’endroit où elle faisait mûrir les bananes.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Kowgol maamiyo debbo no beeginiingol heewu mbayeeri, gawri e
@@ -141,8 +131,7 @@ bananaaje ɗen.
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -173,20 +162,7 @@ dow nootannde, o wi’i kam:
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Un jour, je vis un grand panier de
-paille placé au soleil devant la
-maison de grand-mère. Quand je lui
-ai demandé à quoi il servait, pour
-seule réponse, elle me dit : « C’est
-mon panier magique. » A côté du
-panier, il y avait plusieurs feuilles
-de bananier que grand-mère
-retournait de temps en temps.
-J’étais curieuse. « A quoi servent ces
-feuilles, grand-mère ? » demandai-je.
-Mais pour seule réponse, elle me
-dit : « Ce sont mes feuilles
-magiques. »
+	Un jour, je vis un grand panier de paille placé au soleil devant la maison de grand-mère. Quand je lui ai demandé à quoi il servait, pour seule réponse, elle me dit : « C’est mon panier magique. » A côté du panier, il y avait plusieurs feuilles de bananier que grand-mère retournait de temps en temps. J’étais curieuse. « A quoi servent ces feuilles, grand-mère ? » demandai-je. Mais pour seule réponse, elle me dit : « Ce sont mes feuilles magiques. »
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Nyannde gooɗom, nji’u- mi kilaal
@@ -208,8 +184,7 @@ dow nootannde, o wi’i kam:
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -238,16 +213,7 @@ dagga.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	C’était fascinant de regarder grand-mère, les bananes, les feuilles de
-bananier et le grand panier de
-paille. Mais grand-mère m’envoya
-retrouver maman pour aller
-chercher quelque-chose.
-« Grand-mère, s’il te plaît, laisse-moi
-regarder ce que tu prépares… »
-« Ne sois pas têtue, petite, fais ce
-que je te demande » insista-t-elle. Je
-partis donc en courant.
+	C’était fascinant de regarder grand-mère, les bananes, les feuilles de bananier et le grand panier de paille. Mais grand-mère m’envoya retrouver maman pour aller chercher quelque-chose. « Grand-mère, s’il te plaît, laisse-moi regarder ce que tu prépares… » « Ne sois pas têtue, petite, fais ce que je te demande » insista-t-elle. Je partis donc en courant.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Iɗum wawnii daarol maamiyo
@@ -267,8 +233,7 @@ dagga.
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -293,14 +258,7 @@ sirri.» Ɗum metti kam sanne.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	A mon retour, grand-mère était
-assise dehors, mais il n’y avait plus
-ni panier, ni bananes.
-« Grand-mère, où est le panier, où
-sont toutes les bananes, et où est …
-« Mais pour seule réponse, elle me
-dit : « Ils sont dans mon lieu
-magique. » J’étais très déçue.
+	A mon retour, grand-mère était assise dehors, mais il n’y avait plus ni panier, ni bananes. « Grand-mère, où est le panier, où sont toutes les bananes, et où est … « Mais pour seule réponse, elle me dit : « Ils sont dans mon lieu magique. » J’étais très déçue.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Ko ngartu-mi, tawumi maama no
@@ -316,8 +274,7 @@ sirri.» Ɗum metti kam sanne.
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -345,17 +302,7 @@ sanne ngool.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Deux jours plus tard, grand-mère
-m’envoya dans sa chambre
-chercher son bâton de marche.
-Dès que j’ouvris la porte, je fus
-accueilli par une forte odeur de
-bananes mures. Au milieu de la
-pièce, se trouvait le grand panier
-magique de grand-mère. Il était
-bien caché sous une vieille
-couverture. Je la soulevai et reniflai
-cette odeur extraordinaire.
+	Deux jours plus tard, grand-mère m’envoya dans sa chambre chercher son bâton de marche. Dès que j’ouvris la porte, je fus accueillie par une forte odeur de bananes mûres. Au milieu de la pièce, se trouvait le grand panier magique de grand-mère. Il était bien caché sous une vieille couverture. Je la soulevai et reniflai cette odeur extraordinaire.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Balɗe ɗiɗi gaɗa nden en, maama lili
@@ -374,8 +321,7 @@ sanne ngool.
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -402,17 +348,7 @@ ji’tol nokkuure makko sirri.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	La voix de grand-mère me fit
-sursauter quand elle appela, « Que
-fais-tu ? Dépêche-toi de m’apporter
-mon bâton ».
-Je me suis alors précipitée avec sa
-canne.
-« Qu’est-ce qui te fait sourire ? »
-demanda grand-mère. Sa question
-me fit réaliser que je souriais
-encore en pensant à la découverte
-de son lieu magique.
+	La voix de grand-mère me fit sursauter quand elle appela, « Que fais-tu ? Dépêche-toi de m’apporter mon bâton ». Je me suis alors précipitée avec sa canne. « Qu’est-ce qui te fait sourire ? » demanda grand-mère. Sa question me fit réaliser que je souriais encore en pensant à la découverte de son lieu magique.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Sawto daande maama juwi kam nde
@@ -430,8 +366,7 @@ ji’tol nokkuure makko sirri.
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -460,18 +395,7 @@ muuɗum baa nde wo’otere.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Le lendemain, lorsque grand-mère
-est venue rendre visite à maman, je
-me suis précipitée chez elle pour
-regarder les bananes une fois de
-plus.
-Il y en avait plusieurs, qui étaient
-déjà très mûres. J’en pris une, que
-je cachai sous ma robe. Après avoir
-recouvert le panier, je me rendis
-derrière la maison pour la manger
-en vitesse. C’était la banane la plus
-douce que je n’avais jamais goûtée.
+	Le lendemain, lorsque grand-mère est venue rendre visite à maman, je me suis précipitée chez elle pour regarder les bananes une fois de plus. Il y en avait plusieurs, qui étaient déjà très mûres. J’en pris une, que je cachai sous ma robe. Après avoir recouvert le panier, je me rendis derrière la maison pour la manger en vitesse. C’était la banane la plus douce que j’aie jamais goûtée.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Jaangoore muudum ko maama wari
@@ -491,8 +415,7 @@ muuɗum baa nde wo’otere.
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -524,20 +447,7 @@ muuɗum daa cuuɗu-mi bananaaje
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Le lendemain, alors que grand-mère
-était dans le jardin en train de
-ramasser des légumes, je me suis
-glissée dans sa chambre pour
-regarder les bananes. Elles étaient
-presque toutes mûres. Je n’ai pas
-pu résister, et pris quatre autres
-bananes. Alors que je marchais sur
-la pointe des pieds vers la porte,
-j’entendis grand-mère tousser
-dehors. J’eus juste le temps de
-cacher les bananes sous ma robe
-avant de passer devant elle en
-m’éloignant.
+	Le lendemain, alors que grand-mère était dans le jardin en train de ramasser des légumes, je me suis glissée dans sa chambre pour regarder les bananes. Elles étaient presque toutes mûres. Je n’ai pas pu résister, et pris quatre autres bananes. Alors que je marchais sur la pointe des pieds vers la porte, j’entendis grand-mère tousser dehors. J’eus juste le temps de cacher les bananes sous ma robe avant de passer devant elle en m’éloignant.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Jaangoore muuɗum, wakkati
@@ -560,8 +470,7 @@ muuɗum daa cuuɗu-mi bananaaje
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -586,16 +495,7 @@ mo fufuu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Le lendemain, c’était le jour du
-marché.
-Grand-mère se réveilla très tôt.
-Elle prenait toujours du manioc et
-des bananes mûres pour les vendre
-sur le marché.
-Ce jour-là, je ne me suis pas
-dépêchée pour aller lui rendre
-visite. Mais je n’allais pas pouvoir
-l’éviter bien longtemps.
+	Le lendemain, c’était le jour du marché. Grand-mère se réveilla très tôt. Elle prenait toujours du manioc et des bananes mûres pour les vendre sur le marché. Ce jour-là, je ne me suis pas dépêchée pour aller lui rendre visite. Mais je n’allais pas pouvoir l’éviter bien longtemps.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Jahngoore muuɗum woni
@@ -611,8 +511,7 @@ mo fufuu.
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -637,13 +536,7 @@ duu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Plus tard ce soir-là, ma mère, mon
-père et grand-mère m’ont appelée.
-Je savais pourquoi.
-Cette nuit là quand je me suis
-couchée, je savais que je ne pourrai
-plus jamais voler, ni ma grand-mère, ni mes parents, ni qui que ce
-soit d’autres.
+	Plus tard ce soir-là, ma mère, mon père et ma grand-mère m’ont appelée. Je savais pourquoi. Cette nuit là quand je me suis couchée, je savais que je ne pourrais plus jamais voler, ni ma grand-mère, ni mes parents, ni qui que ce soit d’autre.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Laasara muuɗum daa, inna am,
@@ -659,8 +552,7 @@ duu.
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/ff/0294/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ff,fr','fr,ff,ff')" class="btn btn-lg lang-primary" title="Switch between Fula and French">fr</button>
@@ -693,6 +585,8 @@ duu.
 	<a class="btn btn-lg" href="/storybooks-guinea/stories/ff" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
